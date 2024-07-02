@@ -48,4 +48,6 @@ Este proyecto es un formulario interactivo desarrollado con Vue.js que permite a
 
 
 **NOTA**
-Me falto adaptar el tamaño del cuadro interactivo cuando la letra seleccionada es "grande".
+-Me falto adaptar el tamaño del cuadro interactivo cuando la letra seleccionada es "grande".
+
+-Tuve que cambiar "copiar" la imagen en la carpeta public.
