@@ -1,4 +1,4 @@
-![alt](./dist/image/img-proyecto-desafio.png)
+![alt](./public/img-proyecto-desafio.png)
 - [Templates y rendering en Vue](#templates-y-rendering-en-vue)
   - [Características](#características)
   - [Como usarlo](#como-usarlo)
