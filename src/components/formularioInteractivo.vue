@@ -12,7 +12,7 @@
         Mostrar texto
         <input v-model="mostrarTexto" type="checkbox" name="" />
       </label>
-      <label for="input4">Borde</label>
+      <label for="">Borde</label>
       <input v-model="borde" type="range" id="input4" name="input4" min="0" max="200" step="1" />
       <label>Contenido actual</label>
       <input v-model="contenidoTextual" type="text" name="" value="" maxlength="" />
