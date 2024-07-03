@@ -17,7 +17,7 @@
       <label>Contenido actual</label>
       <input v-model="contenidoTextual" type="text" name="" value="" maxlength="" />
 
-      <fieldeset>
+      <fieldset>
         <legend>Tipografía:</legend>
         <select v-model="selectTipoLetra" name="tipografia">
           <option value="" disabled>Selecciona una opcion</option>
@@ -25,7 +25,7 @@
             {{ tipografia }}
           </option>
         </select>
-      </fieldeset>
+      </fieldset>
 
       <label>
         Opaco
@@ -77,7 +77,7 @@ export default {
         "Georgia",
         "Garamond",
       ],
-      opacidadCuadro: "",
+      opacidadCuadro: false,
       tamañoTexto: "",
     };
   },
