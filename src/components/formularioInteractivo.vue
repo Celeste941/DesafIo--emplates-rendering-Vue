@@ -15,7 +15,7 @@
       <label for="input4">Borde</label>
       <input v-model="borde" type="range" id="input4" name="input4" min="0" max="200" step="1" />
       <label>Contenido actual</label>
-      <input v-model="contenidoTextual" type="text" name="" value="" maxlength="30" />
+      <input v-model="contenidoTextual" type="text" name="" value="" maxlength="" />
 
       <fieldeset>
         <legend>Tipografía:</legend>
@@ -117,8 +117,12 @@ fieldeset{
   box-shadow: 5px 5px 5px gray;
   border: solid 1px rgba(0, 0, 0, 0.21);
   text-align: center;
-  line-height: 400px;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
+
+
 
 .opacidad {
   opacity: 0.5;
