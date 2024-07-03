@@ -15,9 +15,10 @@
       <label for="">Borde</label>
       <input v-model="borde" type="range" id="input4" name="input4" min="0" max="200" step="1" />
       <label>Contenido actual</label>
-      <input v-model="contenidoTextual" type="text" name="" value="" maxlength="" />
+      <input  type="text" name="" value="" maxlength="" />
+      <!-- <textarea v-model="contenidoTextual" name="" ></textarea> -->
 
-      <fieldset>
+      <fieldset class="tipografia">
         <legend>Tipografía:</legend>
         <select v-model="selectTipoLetra" name="tipografia">
           <option value="" disabled>Selecciona una opcion</option>
@@ -103,8 +104,12 @@ export default {
   background-color: rgb(63, 110, 112);
 }
 
+.tipografia{
+  margin: 15px 0 0 0;
+}
+
 label {
-  padding: 12px 0;
+  padding: 15px 0;
 }
 
 fieldeset{
