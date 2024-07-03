@@ -48,6 +48,6 @@ Este proyecto es un formulario interactivo desarrollado con Vue.js que permite a
 
 
 **NOTA**
--Me falto adaptar el tamaño del cuadro interactivo cuando la letra seleccionada es "grande".
+-Habia colocado un maximo de caracteres en el input "contenido actual", el cual se elimino y se ajusto el cuadro dinamico para que no desbordara el texto, aplicando nuevos estilos "overflow, word-wrap, white-space". No se que otras opciones son mejores...
 
 -Tuve que cambiar "copiar" la imagen en la carpeta public.
