@@ -15,7 +15,7 @@
       <label for="">Borde</label>
       <input v-model="borde" type="range" id="input4" name="input4" min="0" max="200" step="1" />
       <label>Contenido actual</label>
-      <input  type="text" name="" value="" maxlength="" />
+      <input v-model="contenidoTextual"  type="text" name="" value="" maxlength="" />
       <!-- <textarea v-model="contenidoTextual" name="" ></textarea> -->
 
       <fieldset class="tipografia">
